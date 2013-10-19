@@ -6,9 +6,9 @@ window.App = Em.Application.create({
 // 	simulateRemoteResponse: false
 // });
 
-App.ApplicationAdapter = DS.LSAdapter.extend({
-	namespace: 'Calendar'
-})
+// App.ApplicationAdapter = DS.LSAdapter.extend({
+// 	namespace: 'Calendar'
+// })
 
 App.Datepicker = Em.TextField.extend({
 	click: function() {

@@ -1,4 +1,4 @@
-DS.Store.extend({
+App.Store = App.store = DS.Store.extend({
   revision: 12
 });
 
@@ -29,6 +29,6 @@ App.Day = DS.Model.extend({
 	}.property('isCurrent')
 });
 
-App.Month.FIXTURES = [];
-App.Week.FIXTURES = [];
-App.Day.FIXTURES = [];
+// App.Month.FIXTURES = [];
+// App.Week.FIXTURES = [];
+// App.Day.FIXTURES = [];
